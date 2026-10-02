@@ -161,7 +161,7 @@ public class Fahad implements BackendEngineer {
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
 ## 📊 `> git stats --dark`
 
-<div align="center">
+<div align="center" style="display: none;">
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=FahadS5534&show_icons=true&hide_border=false&bg_color=0d1117&title_color=ff2d55&icon_color=00e5ff&text_color=c9d1d9&border_color=30363d&border_radius=12&count_private=true" alt="GitHub Stats" />
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FahadS5534&layout=compact&hide_border=false&bg_color=0d1117&title_color=ff2d55&text_color=c9d1d9&border_color=30363d&border_radius=12&langs_count=8" alt="Top Languages" />
