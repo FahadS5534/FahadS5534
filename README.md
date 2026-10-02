@@ -142,7 +142,7 @@ public class Fahad implements BackendEngineer {
       <blockquote>⚙️ <b>Architecture:</b> Sensor telemetry ingestion → anomaly/failure prediction → early-warning alerts before faults escalate.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>🍔 <a href="https://github.com/FahadS5534/DashDish-Backend">DashDish Backend</a></h3>
+      <h3>🍔 <a href="[https://github.com/FahadS5534/DashDish-Backend](https://github.com/FahadS5534/dashDish)">DashDish Backend</a></h3>
       <p>Production-style food delivery backend with hardened auth.</p>
       <p>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
