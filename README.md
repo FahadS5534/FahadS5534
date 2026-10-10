@@ -132,7 +132,7 @@ public class Fahad implements BackendEngineer {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/FahadS5534/Grid-Guard-Ai">Grid-Guard-Ai</a></h3>
+      <h3>⚡ <a href="https://github.com/FahadS5534/Grid-Guard-Ai">Gridwatch-Ai</a></h3>
       <p>IoT predictive maintenance for power transformers.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
