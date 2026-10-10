@@ -97,7 +97,7 @@ public class Fahad implements BackendEngineer {
       <blockquote>⚙️ <b>Architecture:</b> Spring Boot orchestrates embeddings → ChromaDB vector retrieval → Gemini generation, served to an Angular client.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>🏎️ <a href="https://github.com/FahadS5534/3D-RACING-DODGE-GAME">3D-RACING-DODGE-GAME</a></h3>
+      <h3>🏎️ <a href="https://github.com/FahadS5534/velocity-rush">3D-RACING-DODGE-GAME</a></h3>
       <p>Browser-based 3D endless racer with obstacle dodging.</p>
       <p>
         <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
