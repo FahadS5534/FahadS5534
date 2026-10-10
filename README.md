@@ -110,7 +110,7 @@ public class Fahad implements BackendEngineer {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏛️ <a href="https://github.com/FahadS5534/corporate-fraud-detection-system">corporate-fraud-detection-system</a></h3>
+      <h3>🏛️ <a href="https://github.com/FahadS5534/FraudSense-AI">Fraud Sense AI </a></h3>
       <p>Graph risk analytics for the <b>Ministry of Corporate Affairs, Govt. of India</b>.</p>
       <p>
         <img src="https://img.shields.io/badge/Graph_Analytics-FF2D55?style=flat-square&logo=graphql&logoColor=white" />
