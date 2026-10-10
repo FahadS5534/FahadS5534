@@ -97,7 +97,7 @@ public class Fahad implements BackendEngineer {
       <blockquote>⚙️ <b>Architecture:</b> Spring Boot orchestrates embeddings → ChromaDB vector retrieval → Gemini generation, served to an Angular client.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>🏎️ <a href="https://github.com/FahadS5534/velocity-rush">3D-RACING-DODGE-GAME</a></h3>
+      <h3>🏎️ <a href="https://github.com/FahadS5534/velocity-rush">Velocity Rush </a></h3>
       <p>Browser-based 3D endless racer with obstacle dodging.</p>
       <p>
         <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
@@ -120,7 +120,7 @@ public class Fahad implements BackendEngineer {
       <blockquote>⚙️ <b>Architecture:</b> Entity-relationship graph modeling to surface hidden ownership links and score shell-company risk.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>🧹 <a href="https://github.com/FahadS5534/Maha-Track-AI">Maha-Track-AI</a></h3>
+      <h3>🧹 <a href="https://github.com/FahadS5534/Maha-Track-AI">CivicShield</a></h3>
       <p>Civic sanitation dispatch system for <b>Nashik Kumbh Mela 2027</b>.</p>
       <p>
         <img src="https://img.shields.io/badge/AI_Dispatch-FF2D55?style=flat-square&logo=openai&logoColor=white" />
