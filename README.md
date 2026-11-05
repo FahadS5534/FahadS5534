@@ -1,10 +1,12 @@
-<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+from pathlib import Path
+
+readme = r'''<!-- ═══════════════════════ HEADER ═══════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:1a0008,100:ff0033&height=230&section=header&text=FAHAD%20SHAIKH&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=//%20we%20are%20venom%20%E2%80%94%20backend%20symbiote&descSize=16&descColor=00e5ff&descAlignY=62" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:1a0008,100:ff0033&height=230&section=header&text=FAHAD%20SHAIKH&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=//%20mobile%20%26%20backend%20developer&descSize=16&descColor=00e5ff&descAlignY=62" width="100%" alt="header" />
 
 <a href="https://github.com/FahadS5534">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=FF2D55&center=true&vCenter=true&width=760&height=50&lines=Backend+Engineer+%E2%9A%A1+Java+21+%7C+Spring+Boot+3;PostgreSQL+%2B+Redis+%E2%80%94+built+for+scale;RAG+Pipelines+%7C+Microservices+%7C+JWT+Auth;B.E.+Computer+Engineering+%40+TCET" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=FF2D55&center=true&vCenter=true&width=850&height=50&lines=Flutter+Developer+%7C+Dart+%7C+Riverpod+%7C+BLoC;Android+Development+%7C+Kotlin+%7C+Java;Backend+Engineering+%7C+Spring+Boot+%7C+PostgreSQL;Building+mobile+apps%2C+APIs+%26+AI-powered+products;B.E.+Computer+Engineering+%40+TCET" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,15 +21,23 @@
 ## 🕷️ `> whoami`
 
 ```java
-public class Fahad implements BackendEngineer {
+public class Fahad implements MobileDeveloper, BackendEngineer {
 
-    String name       = "Fahad Shaikh";
-    String role       = "Backend Engineer";
-    String education  = "B.E. Computer Engineering @ TCET";
-    String[] stack    = {"Java 21", "Spring Boot 3", "PostgreSQL", "Redis"};
-    String currently  = "Building RAG pipelines & civic-scale systems";
-    String motto      = "Secure by default. Scalable by design.";
+    String name = "Fahad Shaikh";
+    String role = "Flutter & Backend Developer";
+    String education = "B.E. Computer Engineering @ TCET";
 
+    String[] mobileStack = {
+        "Flutter", "Dart", "Riverpod", "BLoC",
+        "Kotlin", "Java", "Firebase"
+    };
+
+    String[] backendStack = {
+        "Java 21", "Spring Boot 3", "PostgreSQL", "Redis"
+    };
+
+    String currently = "Building mobile apps, backend systems & AI-powered products";
+    String motto = "Build useful products. Write clean code. Keep learning.";
 }
 ```
 
@@ -35,6 +45,17 @@ public class Fahad implements BackendEngineer {
 
 <!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
 ## ⚔️ `> arsenal --list`
+
+### 📱 Mobile Development
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Riverpod-00A6C7?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/BLoC-3C3C3C?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" />
+</p>
 
 ### 🧬 Backend & Core
 <p>
@@ -51,7 +72,6 @@ public class Fahad implements BackendEngineer {
 <p>
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript_ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Angular_18-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -66,14 +86,14 @@ public class Fahad implements BackendEngineer {
   <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge&logo=chromadb&logoColor=white" />
 </p>
 
-### 🏗️ Architecture & DevOps
+### 🏗️ Architecture, APIs & DevOps
 <p>
   <img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
   <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   <img src="https://img.shields.io/badge/Microservices-FF2D55?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/RAG_Pipelines-8A2BE2?style=for-the-badge&logo=googlegemini&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
@@ -85,6 +105,41 @@ public class Fahad implements BackendEngineer {
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🚆 <a href="#">LocalLink – Mumbai Local Train Companion</a></h3>
+      <p>Flutter app concept focused on helping Mumbai commuters find stations and access local-train information.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+        <img src="https://img.shields.io/badge/Riverpod-00A6C7?style=flat-square" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+      </p>
+      <blockquote>⚙️ Focus: Station directory, station search, reusable UI components, navigation, and an offline-first mobile experience.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="#">Up-Think</a></h3>
+      <p>Mobile application project focused on building a practical and user-friendly app experience.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+      </p>
+      <blockquote>⚙️ Project: Up-Think. Add the repository link and a short feature summary here.</blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎨 <a href="#">Doodle Duel – Real-Time Multiplayer Drawing Game</a></h3>
+      <p>Multiplayer drawing and guessing game with synchronized gameplay and server-authoritative game flow.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+      <blockquote>⚙️ Architecture: Flutter CustomPainter client with Spring Boot game logic, JWT authentication, REST APIs, WebSocket communication, and PostgreSQL persistence.</blockquote>
+    </td>
+    <td width="50%" valign="top">
       <h3>🧠 <a href="https://github.com/FahadS5534/Personalize-or-perish">Personalize-or-perish</a></h3>
       <p>Personalization engine powered by retrieval-augmented generation.</p>
       <p>
@@ -94,10 +149,12 @@ public class Fahad implements BackendEngineer {
         <img src="https://img.shields.io/badge/Gemini_RAG-8A2BE2?style=flat-square&logo=googlegemini&logoColor=white" />
         <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
       </p>
-      <blockquote>⚙️ <b>Architecture:</b> Spring Boot orchestrates embeddings → ChromaDB vector retrieval → Gemini generation, served to an Angular client.</blockquote>
+      <blockquote>⚙️ Architecture: Spring Boot orchestrates embeddings → ChromaDB vector retrieval → Gemini generation, served to an Angular client.</blockquote>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>🏎️ <a href="https://github.com/FahadS5534/velocity-rush">Velocity Rush </a></h3>
+      <h3>🏎️ <a href="https://github.com/FahadS5534/velocity-rush">Velocity Rush</a></h3>
       <p>Browser-based 3D endless racer with obstacle dodging.</p>
       <p>
         <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
@@ -105,45 +162,32 @@ public class Fahad implements BackendEngineer {
         <img src="https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" />
         <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
       </p>
-      <blockquote>⚙️ <b>Architecture:</b> WebGL render loop via Three.js with modular ES6 game systems for collision, spawning and scoring.</blockquote>
+      <blockquote>⚙️ Architecture: WebGL render loop via Three.js with modular ES6 game systems for collision, spawning, and scoring.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏛️ <a href="https://github.com/FahadS5534/FraudSense-AI">Fraud Sense AI</a></h3>
+      <p>Graph risk analytics project.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Graph_Analytics-FF2D55?style=flat-square&logo=graphql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Risk_Scoring-0d1117?style=flat-square&logo=databricks&logoColor=00e5ff" />
+      </p>
+      <blockquote>⚙️ Architecture: Entity-relationship graph modeling to surface ownership links and score risk.</blockquote>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏛️ <a href="https://github.com/FahadS5534/FraudSense-AI">Fraud Sense AI </a></h3>
-      <p>Graph risk analytics for the <b>Ministry of Corporate Affairs, Govt. of India</b>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Graph_Analytics-FF2D55?style=flat-square&logo=graphql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Risk_Scoring-0d1117?style=flat-square&logo=databricks&logoColor=00e5ff" />
-        <img src="https://img.shields.io/badge/Gov_Tech-138808?style=flat-square" />
-      </p>
-      <blockquote>⚙️ <b>Architecture:</b> Entity-relationship graph modeling to surface hidden ownership links and score shell-company risk.</blockquote>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧹 <a href="https://github.com/FahadS5534/Maha-Track-AI">CivicShield</a></h3>
-      <p>Civic sanitation dispatch system for <b>Nashik Kumbh Mela 2027</b>.</p>
+      <h3>🧹 <a href="https://github.com/FahadS5534/Maha-Track-AI">Maha-Track AI</a></h3>
+      <p>Civic sanitation response and transparency system for Nashik Kumbh Mela 2027.</p>
       <p>
         <img src="https://img.shields.io/badge/AI_Dispatch-FF2D55?style=flat-square&logo=openai&logoColor=white" />
         <img src="https://img.shields.io/badge/Civic_Tech-FF9933?style=flat-square" />
         <img src="https://img.shields.io/badge/Real--Time-00e5ff?style=flat-square&logoColor=black" />
       </p>
-      <blockquote>⚙️ <b>Architecture:</b> Event-driven dispatch that routes sanitation crews to high-priority zones across a mass-gathering footprint.</blockquote>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/FahadS5534/Grid-Guard-Ai">Gridwatch-Ai</a></h3>
-      <p>IoT predictive maintenance for power transformers.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/IoT-0d1117?style=flat-square&logo=raspberrypi&logoColor=ff0033" />
-        <img src="https://img.shields.io/badge/Predictive_ML-8A2BE2?style=flat-square&logo=scikitlearn&logoColor=white" />
-      </p>
-      <blockquote>⚙️ <b>Architecture:</b> Sensor telemetry ingestion → anomaly/failure prediction → early-warning alerts before faults escalate.</blockquote>
+      <blockquote>⚙️ Architecture: AI-assisted issue classification and dispatch workflow for sanitation response.</blockquote>
     </td>
     <td width="50%" valign="top">
       <h3>🍔 <a href="https://github.com/FahadS5534/dashDish">DashDish Backend</a></h3>
-      <p>Production-style food delivery backend with hardened auth.</p>
+      <p>Food delivery backend with authentication and order workflows.</p>
       <p>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
@@ -151,7 +195,7 @@ public class Fahad implements BackendEngineer {
         <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" />
         <img src="https://img.shields.io/badge/Mockito-78A641?style=flat-square" />
       </p>
-      <blockquote>⚙️ <b>Architecture:</b> JWT auth with Redis TTL-based token blacklisting, PostgreSQL persistence, JUnit 5 + Mockito test coverage.</blockquote>
+      <blockquote>⚙️ Architecture: JWT authentication with Redis token blacklisting, PostgreSQL persistence, and JUnit 5 + Mockito tests.</blockquote>
     </td>
   </tr>
 </table>
@@ -205,12 +249,16 @@ public class Fahad implements BackendEngineer {
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=4000&pause=1500&color=00E5FF&center=true&vCenter=true&width=600&lines=%22With+great+power+comes+great+responsibility.%22;%22We+are+Venom.%22" alt="Quote" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=4000&pause=1500&color=00E5FF&center=true&vCenter=true&width=600&lines=Build+with+curiosity.;Ship+with+ownership.;Keep+learning." alt="Quote" />
 
 <br/>
 
-<sub>© 2026 Fahad Shaikh · Built with ☕ Java, 🕸️ web, and a little symbiote</sub>
+<sub>© 2026 Fahad Shaikh · Built with Flutter, Java, and a little creativity</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0033,50:1a0008,100:000000&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
+'''
+path = Path("/mnt/data/README_Flutter_Backend_Updated.md")
+path.write_text(readme, encoding="utf-8")
+print(f"Created {path} ({len(readme.splitlines())} lines)")
